@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -224,7 +224,7 @@
       <workItem from="1617082945446" duration="31570000" />
       <workItem from="1617243799391" duration="1470000" />
       <workItem from="1617245325597" duration="12366000" />
-      <workItem from="1617343310316" duration="2712000" />
+      <workItem from="1617343310316" duration="3516000" />
     </task>
     <task id="LOCAL-00001" summary="新增关闭虚拟设备接口">
       <created>1617346073408</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617346073408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增关闭虚拟设备接口">
+      <created>1617346766351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617346766351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
