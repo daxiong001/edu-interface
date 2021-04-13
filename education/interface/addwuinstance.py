@@ -6,7 +6,7 @@ from education.interface.addwumodle import AddWuModel
 from education.interface.basemethod import Base
 from education.common.sendmethod import Method
 from education.interface.publishmodle import Publish
-from education.interface.addwginstance import AddWgInstance
+from education.common.wechat import *
 import json
 
 """
@@ -43,6 +43,10 @@ class AddModleInstance(Base):
         self.publish.post_publish(thingModelId)
         response = Method.send_method(self.method, self.url, self.head, self.data(thingModelId, gateWayThingId))
         self.logger.info("注册物模型实例成功,物模型实例id为：{}".format(response.json()["data"]))
+        if response.status_code == 200:
+            dict.append("> 新建物实例接口：<font color=\"info\">通过</font> {}\n".format(response.json()))
+        else:
+            dict.append("> 新建物实例接口：<font color=\"comment\">失败</font> \n")
         return response.json()["data"]
 
 

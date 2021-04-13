@@ -6,6 +6,7 @@ from education.interface.addwgmodle import AddWgModel
 from education.interface.basemethod import Base
 from education.common.sendmethod import Method
 from education.interface.publishmodle import Publish
+from education.common.wechat import *
 
 """
 注册网关实例
@@ -39,6 +40,10 @@ class AddWgInstance(Base):
         self.publish.post_publish(gateWayModleId)
         response = Method.send_method(self.method, self.url, self.head, self.data(gateWayModleId))
         self.logger.info("注册网关实例成功,网关实例id为：{}".format(response.json()["data"]))
+        if response.status_code == 200:
+            dict.append("> 新建网关实例接口：<font color=\"info\">通过</font>{} \n".format(response.json()))
+        else:
+            dict.append("> 新建网关实例接口：<font color=\"comment\">失败</font> \n")
         return response.json()["data"]
 
 

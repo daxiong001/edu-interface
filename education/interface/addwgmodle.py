@@ -2,7 +2,7 @@ import logging
 
 from education.common.logger import Logger
 from education.constant.globalvar import getHeader, BASE_URL
-from education.interface.login import Login
+from education.common.wechat import *
 import random
 from education.common.sendmethod import *
 from education.interface.basemethod import Base
@@ -35,6 +35,10 @@ class AddWgModel(Base):
     def post_add_model(self):
         response = Method.send_method(self.method, self.url, self.head, self.add_model_param())
         self.logger.info("添加网关模型成功,网关模型id为：{}".format(response.json()["data"]))
+        if response.status_code == 200:
+            dict.append("> 新建网关模型接口：<font color=\"info\">通过</font> {}\n".format(response.json()))
+        else:
+            dict.append("> 新建网关模型接口：<font color=\"comment\">失败</font> \n")
         return response.json()["data"]
 
 if __name__ == '__main__':

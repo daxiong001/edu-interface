@@ -1,3 +1,4 @@
+import asyncio
 import logging
 
 from education.common.logger import Logger
@@ -6,7 +7,7 @@ from education.interface.basemethod import Base
 from education.common.sendmethod import Method
 from education.tables.devices_models import BDeviceInfo
 from education.update.connect_devices import Devices
-from sqlalchemy import text
+import time
 
 
 '''
@@ -38,12 +39,37 @@ class PublishDevices(Base):
         for j in array:
             self.logger.info("获取虚拟设备id:{}".format(j))
             response = Method.send_method(self.method, self.url, self.head, self.param(j))
+            time.sleep(1)
             self.logger.info("请求url：{}".format(response.url))
             self.logger.info("请求响应结果:{}".format(response.json()))
             if response.json()["code"] == 2000 and response.json()["success"] == True:
                 self.logger.info("虚拟设备启动成功")
-
+            else:
+                continue
 
 if __name__ == '__main__':
-    a = PublishDevices()
-    a.startDevices()
+    async def running(i):
+        print("-------------第{}个任务：任务开始启动---------------".format(i))
+        startWork = PublishDevices()
+        startWork.startDevices()
+
+        await asyncio.sleep(i)
+        print("------------第{}个设备启动完成-----------".format(i))
+
+
+    async def report():
+        print("------任务正在执行-------")
+
+
+    loop = asyncio.get_event_loop()
+
+    tasks = [
+        asyncio.ensure_future(running(1)),
+        asyncio.ensure_future(running(2)),
+        asyncio.ensure_future(running(3)),
+        asyncio.ensure_future(running(4)),
+        asyncio.ensure_future(running(5)),
+        asyncio.ensure_future(report())
+    ]
+    loop.run_until_complete(asyncio.wait(tasks))
+

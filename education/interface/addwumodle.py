@@ -2,7 +2,7 @@ import logging
 
 from education.common.logger import Logger
 from education.constant.globalvar import getHeader, BASE_URL
-from education.interface.login import Login
+from education.common.wechat import *
 import random
 from education.common.sendmethod import *
 from education.interface.basemethod import Base
@@ -37,6 +37,10 @@ class AddWuModel(Base):
     def post_add_modelwu(self):
         response = Method.send_method(self.method, self.url, self.head, self.add_modelwu_param())
         self.logger.info("新建物模型成功,物模型id为：{}".format(response.json()["data"]))
+        if response.status_code == 200:
+            dict.append("> 新建物模型接口：<font color=\"info\">通过</font> {}\n".format(response.json()))
+        else:
+            dict.append("> 新建物模型接口：<font color=\"comment\">失败</font> \n")
         return response.json()["data"]
 
 

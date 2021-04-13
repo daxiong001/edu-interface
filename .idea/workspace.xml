@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="802b2253-0b48-463a-902e-08cd31604186" name="Default Changelist" comment="新增关闭虚拟设备接口" />
+    <list default="true" id="802b2253-0b48-463a-902e-08cd31604186" name="Default Changelist" comment="新增关闭虚拟设备接口">
+      <change afterPath="$PROJECT_DIR$/education/common/wechat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/constant/globalvar.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/constant/globalvar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/interface/adddevice.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/interface/adddevice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/interface/addwginstance.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/interface/addwginstance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/interface/addwgmodle.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/interface/addwgmodle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/interface/addwuinstance.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/interface/addwuinstance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/interface/addwumodle.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/interface/addwumodle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/interface/offdevices.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/interface/offdevices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/interface/publishdevices.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/interface/publishdevices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/interface/updatewg.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/interface/updatewg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education/tables/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/education/tables/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -44,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -63,72 +82,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="adddevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="education_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/education/interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/interface/adddevice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="addwuinstance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="education_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/education/interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/interface/addwuinstance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="addwumodle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="education_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/education/interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/interface/addwumodle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="commonid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="education_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,6 +96,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/interface/commonid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="globalvar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="education_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/education/constant" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/constant/globalvar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,6 +148,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="offdevices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="education_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/education/interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/interface/offdevices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="publishdevices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="education_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,13 +192,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wechat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="education_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/education/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/education/common/wechat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wechat" />
+        <item itemvalue="Python.globalvar" />
         <item itemvalue="Python.publishdevices" />
+        <item itemvalue="Python.offdevices" />
         <item itemvalue="Python.commonid" />
-        <item itemvalue="Python.addwuinstance" />
-        <item itemvalue="Python.adddevice" />
-        <item itemvalue="Python.addwumodle" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +243,13 @@
       <workItem from="1617082945446" duration="31570000" />
       <workItem from="1617243799391" duration="1470000" />
       <workItem from="1617245325597" duration="12366000" />
-      <workItem from="1617343310316" duration="3516000" />
+      <workItem from="1617343310316" duration="7940000" />
+      <workItem from="1617528869379" duration="867000" />
+      <workItem from="1617529851600" duration="100000" />
+      <workItem from="1617679968301" duration="2382000" />
+      <workItem from="1617762723471" duration="8977000" />
+      <workItem from="1618194440321" duration="1198000" />
+      <workItem from="1618295751645" duration="10334000" />
     </task>
     <task id="LOCAL-00001" summary="新增关闭虚拟设备接口">
       <created>1617346073408</created>
@@ -240,7 +265,35 @@
       <option name="project" value="LOCAL" />
       <updated>1617346766351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增关闭虚拟设备接口">
+      <created>1617348998897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617348998897</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增关闭虚拟设备接口">
+      <created>1617349051457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617349051457</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增关闭虚拟设备接口">
+      <created>1617349053994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617349053994</updated>
+    </task>
+    <task id="LOCAL-00006" summary="新增关闭虚拟设备接口">
+      <created>1617349058263</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617349058263</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +309,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增关闭虚拟设备接口" />
@@ -263,26 +317,29 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/demo_project$publishmodle.coverage" NAME="publishmodle Coverage Results" MODIFIED="1616575278361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/demo_project$main.coverage" NAME="main Coverage Results" MODIFIED="1617244717215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/education_test$main.coverage" NAME="main Coverage Results" MODIFIED="1617344324828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/demo_project$commonid.coverage" NAME="commonid Coverage Results" MODIFIED="1617096378692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
+    <SUITE FILE_PATH="coverage/education_test$main.coverage" NAME="main Coverage Results" MODIFIED="1618307705449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/demo_project$adddevice.coverage" NAME="adddevice Coverage Results" MODIFIED="1617016501058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
     <SUITE FILE_PATH="coverage/demo_project$publishdevices.coverage" NAME="publishdevices Coverage Results" MODIFIED="1617280208914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/demo_project$addwuinstance.coverage" NAME="addwuinstance Coverage Results" MODIFIED="1617096254683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/demo_project$addinstance.coverage" NAME="addinstance Coverage Results" MODIFIED="1616577390799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/demo_project$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1616729732864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/tables" />
     <SUITE FILE_PATH="coverage/demo_project$addwgmodle.coverage" NAME="addwgmodle Coverage Results" MODIFIED="1617016296789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
     <SUITE FILE_PATH="coverage/demo_project$sendmethod.coverage" NAME="sendmethod Coverage Results" MODIFIED="1616567935309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/common" />
     <SUITE FILE_PATH="coverage/demo_project$addwginstance.coverage" NAME="addwginstance Coverage Results" MODIFIED="1617016332825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/demo_project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1611372709481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/demo_project$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1616748806439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/update" />
-    <SUITE FILE_PATH="coverage/demo_project$globalvar.coverage" NAME="globalvar Coverage Results" MODIFIED="1616504120434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/constant" />
+    <SUITE FILE_PATH="coverage/education_test$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1618307486412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/common" />
+    <SUITE FILE_PATH="coverage/education_test$offdevices.coverage" NAME="offdevices Coverage Results" MODIFIED="1617870690323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
     <SUITE FILE_PATH="coverage/demo_project$addmodle.coverage" NAME="addmodle Coverage Results" MODIFIED="1616575841396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/demo_project$updatewg.coverage" NAME="updatewg Coverage Results" MODIFIED="1617008840776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/education_test$publishdevices.coverage" NAME="publishdevices Coverage Results" MODIFIED="1617343319815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/demo_project$addwumodle.coverage" NAME="addwumodle Coverage Results" MODIFIED="1617016380809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
-    <SUITE FILE_PATH="coverage/demo_project$connect_devices.coverage" NAME="connect_devices Coverage Results" MODIFIED="1616989080046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/update" />
+    <SUITE FILE_PATH="coverage/education_test$publishdevices.coverage" NAME="publishdevices Coverage Results" MODIFIED="1617879264458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
+    <SUITE FILE_PATH="coverage/education_test$globalvar.coverage" NAME="globalvar Coverage Results" MODIFIED="1618307408661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/constant" />
     <SUITE FILE_PATH="coverage/demo_project$devicetemplate.coverage" NAME="devicetemplate Coverage Results" MODIFIED="1617008318218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
     <SUITE FILE_PATH="coverage/demo_project$login.coverage" NAME="login Coverage Results" MODIFIED="1616569751834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
+    <SUITE FILE_PATH="coverage/demo_project$main.coverage" NAME="main Coverage Results" MODIFIED="1617244717215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/demo_project$commonid.coverage" NAME="commonid Coverage Results" MODIFIED="1617096378692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
+    <SUITE FILE_PATH="coverage/demo_project$addwuinstance.coverage" NAME="addwuinstance Coverage Results" MODIFIED="1617096254683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
+    <SUITE FILE_PATH="coverage/demo_project$addinstance.coverage" NAME="addinstance Coverage Results" MODIFIED="1616577390799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
+    <SUITE FILE_PATH="coverage/demo_project$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1616729732864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/tables" />
+    <SUITE FILE_PATH="coverage/demo_project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1611372709481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/demo_project$globalvar.coverage" NAME="globalvar Coverage Results" MODIFIED="1616504120434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/constant" />
+    <SUITE FILE_PATH="coverage/demo_project$updatewg.coverage" NAME="updatewg Coverage Results" MODIFIED="1617008840776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
+    <SUITE FILE_PATH="coverage/demo_project$addwumodle.coverage" NAME="addwumodle Coverage Results" MODIFIED="1617016380809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/interface" />
+    <SUITE FILE_PATH="coverage/demo_project$connect_devices.coverage" NAME="connect_devices Coverage Results" MODIFIED="1616989080046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/education/update" />
   </component>
 </project>

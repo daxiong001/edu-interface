@@ -1,4 +1,5 @@
 from education.common.sendmethod import *
+import datetime
 
 BASE_URL = "https://dapi.bighome360.com"
 
@@ -12,3 +13,9 @@ def getHeader(type, i, token=0):
         return {"content-type": HEAD[i]}
     else:
         return {"content-type": HEAD[i], "token": token}
+
+def timestamp():
+    now = datetime.datetime.now()
+    return now.strftime("%Y-%m-%d %H:%M:%S")
+
+
